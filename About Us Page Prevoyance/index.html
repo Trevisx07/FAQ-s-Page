@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="index-styles.css">
 </head>
 <body>
-    <div class="container">
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo">ECO</a>
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="#about" class="navbar-link">navbar</a></li>
+                <li class="navbar-item"><a href="#events" class="navbar-link">navbar</a></li>
+                <li class="navbar-item"><a href="#contact" class="navbar-link">navbar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="about">
         <h1 class="about-heading"><span style="color: rgb(255, 255, 255);">About</span> <span style="color: rgb(0, 173, 0);">ECO</span></h1>
         <div class="content">
             <div class="text-content">
@@ -18,7 +29,7 @@
         </div>
     </div>
     
-    <div class="container">
+    <div class="container" id="events">
         <h2 class="gallery-heading"><span style="color: rgb(255, 255, 255);">Glimpses of Some of the Events by</span> <span style="color: rgb(0, 173, 0);">ECO</span></h2>
         <div class="gallery">
             <div class="gallery-line fast-scroll">
@@ -94,7 +105,9 @@
         </div>
     </div>
     
-    
+    <div class="container" id="contact">
+        <!-- Contact section content here -->
+    </div>
     
     <script src="faq-script.js"></script>
 </body>
